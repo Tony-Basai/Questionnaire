@@ -9,18 +9,21 @@
     background-size: cover;
     width: 98vw;
     height: 100%;
-    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20rem;
     max-width: 68.75rem;
     width: 100%;
+    padding: 5rem 0 1rem;
 }
 
 .data__personal {
-    margin: 0 auto;
-    padding: 5rem 0 1rem;
     width: 20rem;
 }
 
@@ -29,7 +32,6 @@
     background: rgba(194, 194, 228, 0.8);
     border-radius: 3%;
     border: dashed white;
-    margin-bottom: 18rem;
 }
 
 .personal__top-form {
@@ -68,11 +70,10 @@
     width: 50rem;
     height: 20rem;
     padding: 0.625rem;
-    margin: 0 auto;
     background: rgba(194, 194, 228, 0.8);
     border-radius: 3%;
     border: dashed white;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .data__bottom-card {
