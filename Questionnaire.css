@@ -5,7 +5,7 @@
 }
 
 .data__img-backgound {
-    background-image: url("/img/minimalizm-motivatsi-2.jpg");
+    background-image: url("./img/minimalizm-motivatsi-2.jpg");
     background-size: cover;
     width: 98vw;
     height: 100%;
